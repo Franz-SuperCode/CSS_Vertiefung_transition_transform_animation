@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.animation_shadow {
+    animation-name: shadow;
+    animation-timing-function: linear;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes shadow {
+
+    0% {}
+
+    50% {
+        box-shadow: 10px 10px 100px red, 10px 10px 100px green;
+    }
+
+    75% {
+        box-shadow: 10px 10px 100px green;
+    }
+
+    80% {
+        box-shadow: 10px 10px 100px goldenrod;
+    }
+
+    85% {
+        box-shadow: 5px 5px 80px goldenrod;
+    }
+
+    90% {
+        box-shadow: 2.5px 2.5px 40px goldenrod;
+    }
+
+    95% {
+        box-shadow: 0px 0px 20px goldenrod;
+    }
+
+    100% {}
+}

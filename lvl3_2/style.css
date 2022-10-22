@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+
+.green,
+.blue,
+.yellow,
+.red,
+.purple {
+    height: 10px;
+    width: 10px;
+}
+
+.green {
+    background-color: green;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.red {
+    background-color: red;
+}
+
+.purple {
+    background-color: purple;
+}
+
+.animation_green {
+    animation-name: load;
+    animation-timing-function: linear;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+
+.animation_blue {
+    animation-name: load;
+    animation-timing-function: linear;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 150ms;
+}
+
+.animation_yellow {
+    animation-name: load;
+    animation-timing-function: linear;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 300ms;
+}
+
+.animation_red {
+    animation-name: load;
+    animation-timing-function: ease-in-out;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 450ms;
+}
+
+.animation_purple {
+    animation-name: load;
+    animation-timing-function: linear;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+    animation-delay: 600ms;
+}
+
+@keyframes load {
+
+    0% {}
+
+    50% {
+        translate: 0 -50px;
+    }
+
+    100% {}
+}

@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+}
+
+.div1 {
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+.div2 {
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+.div3 {
+    height: 300px;
+    width: 100px;
+    background-color: black;
+}
+
+.div4 {
+    height: 300px;
+    width: 100px;
+    background-color: rgb(228, 228, 228);
+}
+
+.div5 {
+    height: 300px;
+    width: 100px;
+    background-color: rgb(228, 228, 228);
+}
+
+.animation_black1 {
+    animation-name: blackk1;
+    animation-timing-function: ease;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes blackk1 {
+    0% {}
+
+    50% {
+        opacity: 0.6;
+    }
+
+    100% {}
+}
+
+.animation_black2 {
+    animation-name: blackk2;
+    animation-timing-function: ease;
+    animation-duration: 500ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blackk2 {
+
+    0% {}
+
+    50% {
+        opacity: 0.6;
+    }
+
+
+    100% {}
+}
+
+.animation_black3 {
+    animation-name: blackk3;
+    animation-timing-function: ease;
+    animation-duration: 1000ms;
+    animation-iteration-count: infinite;
+}
+
+@keyframes blackk3 {
+
+    0% {}
+
+    50% {
+        opacity: 0.6;
+    }
+
+
+    100% {}
+}
